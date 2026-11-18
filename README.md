@@ -1,4 +1,4 @@
-**Student:** Manu Ludwaro  
+**Student:** Emmanuel Ludwaro  
 **Registration number:** SCT212-0268/2024  
 **Unit:** ICS 2305 – Systems Programming
 
