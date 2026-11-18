@@ -40,9 +40,6 @@ See [`tests/test_plan.md`](tests/test_plan.md). Run the listed interactive tests
 
 This is a teaching shell rather than a POSIX shell. It has no quoting, variable expansion, pipelines, append redirection, multiple redirections, job-control process groups, or command history. The argument vector is capped at 255 entries. Background children are reaped when the shell returns to its prompt, rather than by a dedicated SIGCHLD handler.
 
-## Sources and AI-tool declaration
-
-The implementation follows the assignment brief and standard Linux/POSIX interfaces (`getline`, `fork`, `execvp`, `waitpid`, `open`, `dup2`, `sigaction`). ChatGPT was used to help draft and review the code and documentation. The student should read, understand, compile, test, and be prepared to explain every part before submission.
 
 ## Local smoke tests
 
