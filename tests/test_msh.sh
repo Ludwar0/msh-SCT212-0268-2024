@@ -1,7 +1,7 @@
 #!/bin/sh
 # Small repeatable smoke tests for the msh assignment.
 set -eu
-ROOT=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+ROOT=$(CDPATH var = cd -- "$(dirname -- "$0")/.." && pwd)
 TMP=$(mktemp -d)
 trap 'rm -rf "$TMP"' EXIT HUP INT TERM
 make -C "$ROOT" >/dev/null
